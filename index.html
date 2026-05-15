@@ -537,7 +537,7 @@
         },
         body: JSON.stringify({
           vote: selectedVote === 'yes' ? 'YES - Bring it to Winona!' : 'NO - Not for me',
-          email: email || 'Not provided',
+          contact: email || 'Not provided',
           comment: comment || 'No comment',
           _subject: 'Chaar Craft Kitchen - New Vote: ' + (selectedVote === 'yes' ? 'YES' : 'NO')
         })

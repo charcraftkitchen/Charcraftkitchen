@@ -334,14 +334,18 @@
   <div>
     <div class="cat-header">
       <div class="cat-bar" style="background:#B8903C"></div>
-      <div class="cat-name" style="color:#B8903C">Rolls</div>
+      <div class="cat-name" style="color:#B8903C">Wraps</div>
       <div class="cat-line"></div>
     </div>
-    <div class="cat-subtitle">Rolled up and ready to go.</div>
+    <div class="cat-subtitle">Wrapped up and ready to go.</div>
     <div class="item-grid">
       <div class="item-card">
-        <div class="item-top"><div><div class="item-name">Beef Fry Roll</div></div></div>
+        <div class="item-top"><div><div class="item-name">Beef Fry Wrap</div></div></div>
         <div class="bits"><span class="bit">Our in-house South Indian beef fry</span><span class="bit">Served with chapati</span><span class="bit">Toasted coconut</span><span class="bit">Lime</span></div>
+      </div>
+      <div class="item-card">
+        <div class="item-top"><div><div class="item-name">Grilled Chicken Wrap</div></div></div>
+        <div class="bits"><span class="bit">Our in-house marinade</span><span class="bit">Served with chapati</span><span class="bit">Raita</span><span class="bit">Pickled red onion</span><span class="bit">Mint chutney</span></div>
       </div>
     </div>
   </div>
@@ -592,7 +596,7 @@
         var success = document.getElementById('vote-success');
         success.style.display = 'block';
         if (selectedVote === 'no') {
-          document.getElementById('success-emoji').textContent = '\uD83D\uDE4F';
+          document.getElementById('success-emoji').textContent = '🙏';
           document.getElementById('success-title').textContent = 'Thanks for being honest.';
           document.getElementById('success-msg').textContent = 'We appreciate the honest feedback. If you change your mind, our doors are always open.';
         }
